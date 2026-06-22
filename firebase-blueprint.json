@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "Channel": {
+      "title": "Channel",
+      "description": "An IPTV channel",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "url": { "type": "string" },
+        "tvgName": { "type": "string" },
+        "tvgLogo": { "type": "string" },
+        "groupTitle": { "type": "string" },
+        "category": { "type": "string" },
+        "isFavorite": { "type": "boolean" }
+      },
+      "required": ["id", "name", "url"]
+    },
+    "User": {
+      "title": "User",
+      "description": "A user profile",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" }
+      },
+      "required": ["uid"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}/channels/{channelId}": {
+      "schema": "Channel",
+      "description": "User's custom channels"
+    },
+    "/users/{userId}/recentlyWatched/{channelId}": {
+      "schema": "Channel",
+      "description": "User's recently watched channels"
+    }
+  }
+}

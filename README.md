@@ -1,11 +1,23 @@
-<div align="center">
+# Pujashanti IPTV
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+## Disclaimer
+Pujashanti IPTV is a media playback application only. We do not provide, host, or control any media content. Users are responsible for ensuring they have the legal right to access the content they stream.
 
-  <h1>Built with AI Studio</h2>
+## Licenses
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+### Pujashanti Developer
+This project is licensed under a Creative Commons Attribution license.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### Shaka Player
+Shaka Player is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-</div>
+### Google AI Studio
+Platform usage is subject to the terms and policies provided by Google.
+
+## Embedding
+To embed Pujashanti IPTV in your website, you can use the following iframe code:
+
+```html
+<iframe src="https://ais-dev-3qvu64iijoyceccak6vdxk-343704876643.asia-southeast1.run.app" width="100%" height="800px" frameborder="0" allowfullscreen></iframe>
+```
+

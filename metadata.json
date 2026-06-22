@@ -1,0 +1,8 @@
+{
+  "name": "Remix: IPTV Player",
+  "description": "A modern web-based IPTV player for streaming live channels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "44602645664",
+    "project_id": "notional-safeguard-79z5m",
+    "storage_bucket": "notional-safeguard-79z5m.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44602645664:android:dad44db313dd296a3b7dc5",
+        "android_client_info": {
+          "package_name": "com.pujashanti.iptv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44602645664-vj0i16jv4shkoct9jkhvake4cfug3oj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pujashanti.iptv",
+            "certificate_hash": "0000000000000000000000000000000000000000"
+          }
+        },
+        {
+          "client_id": "44602645664-4r5da9153jlpmquc5g1leuts2qu0d652.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-NeHjRTL4kHFt-JCFFXgGG76ediZvDrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44602645664-4r5da9153jlpmquc5g1leuts2qu0d652.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
